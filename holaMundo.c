@@ -7,5 +7,6 @@ int main(void) {
   printf("Ingrese un número: ");
   scanf("%d",&b);
   printf("La suma es: %d\n",(a+b));
+  printf("La resta es: %d\n",(a-b));
   return (0);
 }
