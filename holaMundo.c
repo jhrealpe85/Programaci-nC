@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-printf("Hola Mundo \n");
-return (0);
+  int a,b;
+  printf("Ingrese un número: ");
+  scanf("%d",&a);
+  printf("Ingrese un número: ");
+  scanf("%d",&b);
+  printf("La suma es: %d\n",(a+b));
+  return (0);
 }
